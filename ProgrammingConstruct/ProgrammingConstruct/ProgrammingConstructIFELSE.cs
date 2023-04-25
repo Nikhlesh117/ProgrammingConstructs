@@ -21,8 +21,19 @@ namespace ProgrammingConstruct
             {
                 Console.WriteLine("Not Equal");
             }
-
-
+        }
+        public void EvenOrOdd()
+        {
+            Console.WriteLine("Enter Value");
+            int number = Convert.ToInt32(Console.ReadLine());
+            if (number % 2 == 0)
+            {
+                Console.WriteLine("Even Number");
+            }
+            else
+            {
+                Console.WriteLine("Odd Number");
+            }
         }
     }
 }

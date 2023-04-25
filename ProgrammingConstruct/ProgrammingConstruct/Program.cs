@@ -6,6 +6,7 @@
         {
             ProgrammingConstructIFELSE constructIFELSE= new ProgrammingConstructIFELSE();
             constructIFELSE.EqualOrNot();
+            constructIFELSE.EvenOrOdd();
         }
     }
 }
