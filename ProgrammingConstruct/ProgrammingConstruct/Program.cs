@@ -8,9 +8,11 @@
             //constructIFELSE.EqualOrNot();
             //constructIFELSE.EvenOrOdd();
             //constructIFELSE.EligibleToVote();
-            ProgrammingConstructIFAndELSEIF constructIFAndELSEIF = new ProgrammingConstructIFAndELSEIF();
+            //ProgrammingConstructIFAndELSEIF constructIFAndELSEIF = new ProgrammingConstructIFAndELSEIF();
             //constructIFAndELSEIF.LargestOfThree();
-            constructIFAndELSEIF.EligibilityForAdmission();
+            //constructIFAndELSEIF.EligibilityForAdmission();
+            ProgrammingConstructCase constructCase = new ProgrammingConstructCase();
+            constructCase.NumberToWeekDay();
         }
     }
 }
