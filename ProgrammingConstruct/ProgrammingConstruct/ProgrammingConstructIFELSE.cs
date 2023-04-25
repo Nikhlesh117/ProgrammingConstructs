@@ -35,5 +35,18 @@ namespace ProgrammingConstruct
                 Console.WriteLine("Odd Number");
             }
         }
+        public void EligibleToVote()
+        {
+            Console.WriteLine("Enter the Age");
+            int age = Convert.ToInt32(Console.ReadLine());
+            if (age >= 18)
+            {
+                Console.WriteLine("Eligible");
+            }
+            else
+            {
+                Console.WriteLine("Not Eligible");
+            }
+        }
     }
 }
