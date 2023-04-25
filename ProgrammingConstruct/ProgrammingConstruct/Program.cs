@@ -4,10 +4,12 @@
     {
         public static void Main(string[] args)
         {
-            ProgrammingConstructIFELSE constructIFELSE= new ProgrammingConstructIFELSE();
-            constructIFELSE.EqualOrNot();
-            constructIFELSE.EvenOrOdd();
-            constructIFELSE.EligibleToVote();
+            //ProgrammingConstructIFELSE constructIFELSE= new ProgrammingConstructIFELSE();
+            //constructIFELSE.EqualOrNot();
+            //constructIFELSE.EvenOrOdd();
+            //constructIFELSE.EligibleToVote();
+            ProgrammingConstructIFAndELSEIF constructIFAndELSEIF = new ProgrammingConstructIFAndELSEIF();
+            constructIFAndELSEIF.LargestOfThree();
         }
     }
 }
