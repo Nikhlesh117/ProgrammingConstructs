@@ -31,5 +31,28 @@ namespace ProgrammingConstruct
                 Console.WriteLine("The numbers are equal.");
             }
         }
+        public void EligibilityForAdmission()
+        {
+            
+            Console.WriteLine("Enter the Marks of Physics");
+            int physic = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the Marks of Chemistry");
+            int chemistry = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the Marks of Maths");
+            int maths = Convert.ToInt32(Console.ReadLine());
+            int total =  physic + chemistry + maths;
+            if (total >= 180)
+            {
+                Console.WriteLine("Eligible");
+            }
+            else if ((maths + chemistry) >= 140 || (maths + physic) >= 140)
+            {
+                Console.WriteLine("Eligible");
+            }
+            else
+            {
+                Console.WriteLine("Not Eligible");
+            }
+        }
     }
 }

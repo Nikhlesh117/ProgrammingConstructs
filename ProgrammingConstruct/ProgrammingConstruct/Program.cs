@@ -9,7 +9,8 @@
             //constructIFELSE.EvenOrOdd();
             //constructIFELSE.EligibleToVote();
             ProgrammingConstructIFAndELSEIF constructIFAndELSEIF = new ProgrammingConstructIFAndELSEIF();
-            constructIFAndELSEIF.LargestOfThree();
+            //constructIFAndELSEIF.LargestOfThree();
+            constructIFAndELSEIF.EligibilityForAdmission();
         }
     }
 }
