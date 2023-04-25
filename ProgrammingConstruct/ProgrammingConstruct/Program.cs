@@ -12,7 +12,8 @@
             //constructIFAndELSEIF.LargestOfThree();
             //constructIFAndELSEIF.EligibilityForAdmission();
             ProgrammingConstructCase constructCase = new ProgrammingConstructCase();
-            constructCase.NumberToWeekDay();
+            //constructCase.NumberToWeekDay();
+            constructCase.ArithmeticOperations();
         }
     }
 }
