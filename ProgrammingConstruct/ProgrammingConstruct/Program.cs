@@ -16,7 +16,8 @@
             //constructCase.ArithmeticOperations();
             ProgrammingConstructFor constructFor = new ProgrammingConstructFor();
             //constructFor.PowerOfTwoTable();
-            constructFor.SumOfSquare();
+            //constructFor.SumOfSquare();
+            constructFor.Factorial();
         }
     }
 }
