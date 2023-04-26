@@ -11,9 +11,11 @@
             //ProgrammingConstructIFAndELSEIF constructIFAndELSEIF = new ProgrammingConstructIFAndELSEIF();
             //constructIFAndELSEIF.LargestOfThree();
             //constructIFAndELSEIF.EligibilityForAdmission();
-            ProgrammingConstructCase constructCase = new ProgrammingConstructCase();
+            //ProgrammingConstructCase constructCase = new ProgrammingConstructCase();
             //constructCase.NumberToWeekDay();
-            constructCase.ArithmeticOperations();
+            //constructCase.ArithmeticOperations();
+            ProgrammingConstructFor constructFor = new ProgrammingConstructFor();
+            constructFor.PowerOfTwoTable();
         }
     }
 }
