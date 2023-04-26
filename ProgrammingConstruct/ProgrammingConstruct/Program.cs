@@ -15,7 +15,8 @@
             //constructCase.NumberToWeekDay();
             //constructCase.ArithmeticOperations();
             ProgrammingConstructFor constructFor = new ProgrammingConstructFor();
-            constructFor.PowerOfTwoTable();
+            //constructFor.PowerOfTwoTable();
+            constructFor.SumOfSquare();
         }
     }
 }
