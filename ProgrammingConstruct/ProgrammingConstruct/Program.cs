@@ -20,7 +20,8 @@
             //constructFor.Factorial();
             ProgrammingConstructWhile constructWhile = new ProgrammingConstructWhile();
             //constructWhile.FlipCoin();
-            constructWhile.ReverseString();
+            //constructWhile.ReverseString();
+            constructWhile.SumNaturalNumber();
         }
     }
 }

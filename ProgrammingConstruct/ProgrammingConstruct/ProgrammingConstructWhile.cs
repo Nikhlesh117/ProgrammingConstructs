@@ -49,5 +49,17 @@ namespace ProgrammingConstruct
             }
             Console.WriteLine("Reversed word: " + reversed);
         }
+        public void SumNaturalNumber()
+        {
+            int n = 5;
+            int sum = 0;
+            int i = 1;
+            while (i <= n)
+            {
+                sum += i;
+                i++;
+            }
+            Console.WriteLine("The sum of the first " + n + " natural numbers is "+ sum);
+        }
     }
 }
