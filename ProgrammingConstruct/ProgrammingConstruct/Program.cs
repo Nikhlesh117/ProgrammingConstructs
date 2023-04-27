@@ -14,10 +14,13 @@
             //ProgrammingConstructCase constructCase = new ProgrammingConstructCase();
             //constructCase.NumberToWeekDay();
             //constructCase.ArithmeticOperations();
-            ProgrammingConstructFor constructFor = new ProgrammingConstructFor();
+            //ProgrammingConstructFor constructFor = new ProgrammingConstructFor();
             //constructFor.PowerOfTwoTable();
             //constructFor.SumOfSquare();
-            constructFor.Factorial();
+            //constructFor.Factorial();
+            ProgrammingConstructWhile constructWhile = new ProgrammingConstructWhile();
+            //constructWhile.FlipCoin();
+            constructWhile.ReverseString();
         }
     }
 }

@@ -36,5 +36,18 @@ namespace ProgrammingConstruct
                 Console.WriteLine("Tails wins");
             }
         }
+        public void ReverseString()
+        {
+            Console.Write("Enter a word: ");
+            string word = Console.ReadLine();
+            int i = word.Length - 1;
+            string reversed = "";
+            while (i >= 0)
+            {
+                reversed += word[i];
+                i--;
+            }
+            Console.WriteLine("Reversed word: " + reversed);
+        }
     }
 }
